@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-18T22:03:19.168428492Z"
+    description: A Helm chart for Kubernetes
+    digest: 9a8052be9822eee7c8602a6a71b6a5f237c2ae085bc284173fa2805ca3eacdce
+    name: hello
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/kubepack/preset-testdata/master/stable/hello/hello-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-18T22:03:19.167698484Z"

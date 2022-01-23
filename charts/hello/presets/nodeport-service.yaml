@@ -1,0 +1,9 @@
+apiVersion: charts.x-helm.dev/v1alpha1
+kind: VendorChartPreset
+metadata:
+  name: nodeport-service
+spec:
+  selector: {}
+  values:
+    service:
+      type: NodePort

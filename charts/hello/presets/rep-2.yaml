@@ -1,0 +1,8 @@
+apiVersion: charts.x-helm.dev/v1alpha1
+kind: VendorChartPreset
+metadata:
+  name: rep-2
+spec:
+  selector: {}
+  values:
+    replicaCount: 2

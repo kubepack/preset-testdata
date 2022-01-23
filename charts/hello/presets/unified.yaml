@@ -1,0 +1,10 @@
+apiVersion: charts.x-helm.dev/v1alpha1
+kind: VendorChartPreset
+metadata:
+  name: unified
+spec:
+  selector: {}
+  usePresets:
+    - name: rep-3
+    - name: nodeport-service
+    - name: rep-2
